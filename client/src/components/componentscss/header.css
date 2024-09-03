@@ -1,0 +1,22 @@
+.header {
+    background-image: url('../assets/image-header.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 550px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 1.5rem; 
+}

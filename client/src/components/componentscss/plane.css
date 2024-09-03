@@ -1,0 +1,56 @@
+.plane-card, .train-card, .hotel-card {
+    margin: 15px; 
+    border: 1px solid #007bff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 15px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    width: 100%;
+    min-height: 150px;
+    position: relative; 
+}
+
+.plane-body, .train-body, .hotel-body {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.plane-info, .train-info , .hotel-info{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+
+.plane-title , .train-title, .hotel-title{
+    font-size: 2rem; 
+    font-weight: bold; 
+}
+
+.plane-company, .train-company, .hotel-company{
+    font-size: 1.2rem;
+    color: #6c757d; 
+}
+
+.plane-price, .train-price, .hotel-price {
+    font-size: 1.25rem; 
+    color: #28a745; 
+    position: absolute; 
+    top: 15px; 
+    right: 15px; 
+}
+
+.button-group {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 10px;
+    position: absolute; 
+    bottom: 15px; 
+    right: 15px; 
+}
+
+.button-group .btn {
+    width: auto; 
+}

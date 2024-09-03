@@ -1,0 +1,17 @@
+
+
+.root-plane, .root-train, .root-hotel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-plane, .container-train, .container-hotel{
+    width: 1000px;
+}
+
+.heading{
+    margin-top: 20px;
+    color: white;
+
+}
